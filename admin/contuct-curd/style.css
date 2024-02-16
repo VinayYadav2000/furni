@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body
+{
+    background: #e9f1f1;
+}
+
+/* main conatiner */
+.conatiner
+{
+    width: 900px;
+    min-height: 600px;
+    background-color: #d7eae9;
+    margin: 30px auto;
+    box-shadow: 0 0 30px rgba(90, 85, 85, 0.5);
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+
+/* header */
+
+.title
+{
+    background-color: #365486;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #c6f1ef;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.page-title1{
+    margin: 3em;
+}
+.h34{
+    margin: 3em;
+}
+
+.menu
+{
+    width: 100%;
+    background-color: #7FC7D9;
+    padding: 15px 0;
+    display: flex;
+    color: #acf4f0;
+    justify-content: center;
+}
+
+.menu ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.menu ul li a
+{
+    text-decoration: none;
+    color: #d7f4f2;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.menu ul li a:hover
+{
+    background: rebeccapurple;
+    padding: 10px 15px;
+    font-weight: 600;
+}
+
+/* footer */
+
+footer
+{
+    position:absolute ;
+    left: 0;
+    bottom: 0;
+    background-color: #18122B;
+    width: 100%;
+    text-align: center;
+    color: #acf4f0;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.text-p-a
+{
+    text-decoration: none;
+    color: #9fce9f;
+}
+
+/* page title */
+
+#page-title
+{
+    padding: 15px;
+    text-transform: uppercase;
+    color: rgb(240, 245, 240);
+}
+
+/* all record table */
+
+table
+{
+    width: 90%;
+    margin: auto;
+}
+
+tr:nth-child(odd)
+{
+    background-color: #d1d1d1;
+}
+
+th
+{
+    background: #333;
+    padding: 15px 0;
+    color: #fff;
+}
+
+th:nth-child(1)
+{
+    width: 80px;
+}
+
+th:nth-child(2)
+{
+    width: 250px;
+}
+
+td
+{
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+td:nth-child(1)
+{
+    color: tomato;
+    font-weight: 600;
+}
+
+#btn
+{
+    text-decoration: none;
+    color: #fff;
+    background: rebeccapurple;
+    padding: 5px;
+}
+
+/* pagination */
+
+.pagination
+{
+    bottom: 60px;
+    width: 100%;
+    position: absolute;
+    bottom: 60px;
+}
+
+.pagination ul
+{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.pagination ul li
+{
+    list-style: none;
+    display: inline-block;
+}
+
+.pagination ul li a
+{
+    text-decoration: none;
+    background: rebeccapurple;
+    color: #fff;
+    padding: 8px 5px;
+}
+
+/* form */
+
+.form-conatiner
+{
+    width: 60%;
+    margin: 0 auto 20px auto;
+    padding: 15px;
+    background-color: #d1d1d1;
+    border-radius: 5px;
+    border: 1px solid #aeaeae;
+}
+
+form
+{
+    width: 80%;
+    margin: auto;
+}
+
+.form-group
+{
+    width: 100%;
+    margin: 10px 0;
+}
+
+.form-group input
+{
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid;
+}
+
+#form-btn
+{
+    background: rebeccapurple;
+    margin: auto;
+    color: #fff;
+    padding: 10px 60px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#form-btn:hover
+{
+    background: rgb(1, 131, 131);
+    font-weight: 600;
+}
